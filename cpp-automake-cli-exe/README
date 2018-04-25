@@ -1,0 +1,11 @@
+README
+
+Quick Start:
+
+$ autoreconf --install
+$ ./configure
+$ make
+$ src/hello
+hello world.
+$ make distcheck
+...
