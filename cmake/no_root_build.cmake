@@ -1,0 +1,15 @@
+# Check to see if this is an out-of-source build or not
+IF(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR})
+    MESSAGE("           ____")
+    MESSAGE("          (_oo_)          Something is wrong...")
+    MESSAGE("           (O)")
+    MESSAGE("          __||__    \\)    It looks like you are attempting")
+    MESSAGE("       []/______\\[] /     to build in the root directory.")
+    MESSAGE("       / \\______/ \\/")
+    MESSAGE("      /    /__\\           Please don't.")
+    MESSAGE("     (\\   /____\\")
+
+    MESSAGE("Source directory = ${CMAKE_SOURCE_DIR}")
+    MESSAGE("Binary directory = ${CMAKE_BINARY_DIR}")
+    MESSAGE(FATAL_ERROR "Prevented in-tree built. This is bad practice.")   
+ENDIF(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR})
