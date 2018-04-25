@@ -21,6 +21,7 @@ The following permutations are supported:
 | C++        | automake    | n/a                   |                                     |
 | C++        | CMake       | n/a                   |                                     |
 | C++        | CMake       | gtest                 | gtest git repo fetched during cmake |
+| C++        | CMake       | cppunit               |                                     |
 
 
 
