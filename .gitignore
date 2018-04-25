@@ -1,0 +1,3 @@
+# ignore mac os x turdlets
+.DS_Store
+
