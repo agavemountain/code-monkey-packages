@@ -17,10 +17,11 @@ the app generator.
 The following permutations are supported:
 
 | language   | build tool  | unit test framework   |
-|---|---|---|---|
-| C++  | automake  |   | 
-| C++  | CMake  |   |   
-| C++  | CMake  | gtest  | 
-language build tool unit test framework
+|------------|-------------|-----------------------|
+| C++        | automake    | n/a                   | 
+| C++        | CMake       | n/a                   |   
+| C++        | CMake       | gtest                 | 
+
+
 
 
